@@ -21,8 +21,10 @@ public class HelloWorldServlet extends HttpServlet {
    protected void doGet(HttpServletRequest req, HttpServletResponse resp) 
          throws ServletException, IOException {
 
-//Srikanth has fixed the issue
-// master code added
+// I am creating this for the master branch		 
+		 /*
+Srikanth has fixed the issue */
+>>>>>>> ce5e90e... commited inside the master branch (thinking)
 		 send.sendRedirect("/login");
 			 
 >>>>>>> Stashed changes
