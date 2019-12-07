@@ -24,10 +24,9 @@ public class HelloWorldServlet extends HttpServlet {
 // I am creating this for the master branch		 
 		 /*
 Srikanth has fixed the issue */
->>>>>>> ce5e90e... commited inside the master branch (thinking)
+
 		 send.sendRedirect("/login");
-			 
->>>>>>> Stashed changes
+			
       resp.setContentType("text/plain");
       resp.getWriter().write("Hello World! Maven Web Project Example. new version");
    }
