@@ -22,8 +22,7 @@ public class HelloWorldServlet extends HttpServlet {
          throws ServletException, IOException {
 
 // I am creating this for the master branch		 
-		 /*
-Srikanth has fixed the issue */
+//Srikanth has fixed the issue
 
 		 send.sendRedirect("/login");
 			
