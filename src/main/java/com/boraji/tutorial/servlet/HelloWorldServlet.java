@@ -20,6 +20,12 @@ public class HelloWorldServlet extends HttpServlet {
    @Override
    protected void doGet(HttpServletRequest req, HttpServletResponse resp) 
          throws ServletException, IOException {
+
+//Srikanth has fixed the issue
+// master code added
+		 send.sendRedirect("/login");
+			 
+>>>>>>> Stashed changes
       resp.setContentType("text/plain");
       resp.getWriter().write("Hello World! Maven Web Project Example. new version");
    }
